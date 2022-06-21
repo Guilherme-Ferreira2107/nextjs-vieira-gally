@@ -1,4 +1,58 @@
 .container {
-  background-color: black;
-  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: #fff;
+  width: 100%;
+
+}
+
+.boxAbout {
+  max-width: 600px;
+  text-align: center;
+
+  h1,
+  h3 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 0.1rem;
+
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    background: #f5ee32;
+  }
+
 }

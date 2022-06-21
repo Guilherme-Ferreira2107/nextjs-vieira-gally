@@ -14,11 +14,13 @@ export default function Home() {
         <title>Vieira Gally</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
-      <main>
+      <div className={styles.presentations}>
+        <div className={styles.menuFixed}>
+          <Header />
+        </div>
         <About />
-        <Acting />
-      </main>
+      </div>
+      <Acting />
       <Footer />
 
       <style jsx global>{`

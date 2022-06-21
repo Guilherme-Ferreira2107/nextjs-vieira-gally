@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 
 .container {
   width: 100%;
@@ -11,4 +12,21 @@
   section {
     min-height: 100vh;
   }
+}
+
+.presentations {
+  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url("../assets/images/lady-justice-1920.png");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 50px;
+  z-index: 0;
+}
+
+.menuFixed {
+  width: 100%;
+  position: fixed;
+  z-index: 3;
 }

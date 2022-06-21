@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -10,9 +12,25 @@ import styles from "./sHeader.module.scss";
 import logo from "../../assets/images/logo.jpg";
 
 export default function Header() {
+  const [scrollY, setScrollY] = useState(0);
+
+  function logit() {
+    setScrollY(window.pageYOffset);
+  }
+
+  useEffect(() => {
+    function watchScroll() {
+      window.addEventListener("scroll", logit);
+    }
+    watchScroll();
+    return () => {
+      window.removeEventListener("scroll", logit);
+    };
+  });
+
   return (
     <header id="inicio" className={styles.container}>
-      <div className={styles.headerContact}>
+      <div className={`${scrollY > 0 ? styles.hidden : styles.headerContact}`}>
         <div className={styles.sessionWrapper}>
           <div className={styles.boxFlex}>
             <div className={styles.mr8}>
@@ -55,32 +73,29 @@ export default function Header() {
         </div>
       </div>
 
-      <div className={styles.headerMenu}>
-        <Image src={logo} alt="Logo" width={60} height={60} />
-        <nav>
-          <ul>
-            <li>
-              <Link href="/#inicio">
-                <a>Inicio</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/#sobre">
-                <a>Sobre</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/#atuacao">
-                <a>Atuação</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/#contato">
-                <a>Contato</a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
+      <div className={`${styles.headerMenu} ${scrollY > 0 && styles.bgDark}`}>
+        <div className={styles.sessionWrapper}>
+          <Image src={logo} alt="Logo" width={60} height={60} />
+          <nav>
+            <ul>
+              <li>
+                <Link href="/#sobre">
+                  <a>Sobre</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#atuacao">
+                  <a>Atuação</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#contato">
+                  <a>Contato</a>
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
   );
