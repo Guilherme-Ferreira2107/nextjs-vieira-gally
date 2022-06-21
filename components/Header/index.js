@@ -37,12 +37,9 @@ export default function Header() {
               <MdPhoneIphone
                 color="white"
                 size={16}
-                style={{ marginBottom: "-2px" }}
+                style={{ marginBottom: "-2px", marginRight: "8px" }}
               />
-              <a
-                className={styles.ml8}
-                href="https://api.whatsapp.com/send?phone=5511986701058"
-              >
+              <a href="https://api.whatsapp.com/send?phone=5511986701058">
                 +55 (11) 98670-1058
               </a>
             </div>
@@ -51,15 +48,15 @@ export default function Header() {
               <HiOutlineMail
                 color="white"
                 size={16}
-                style={{ marginBottom: "-3px" }}
+                style={{ marginBottom: "-3px", marginRight: "8px" }}
               />
-              <a className={styles.ml8} href="mailto:info@gmail.com">
+              <a href="mailto:info@gmail.com">
                 levivaz@vieiragallyadvogados.com
               </a>
             </div>
           </div>
 
-          <div>
+          <div className={styles.boxFlex}>
             <a href="https://www.instagram.com/vieira_gally/?igshid=YmMyMTA2M2Y%3D">
               <AiOutlineInstagram />
             </a>

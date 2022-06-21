@@ -67,6 +67,10 @@
       transform: scaleY(0);
     }
   }
+
+  @media (max-width: 500px) {
+    height: 62px;
+  }
 }
 
 .headerMenu {
@@ -84,6 +88,7 @@
   display: flex;
   align-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .dotSpace {
@@ -92,6 +97,10 @@
   border-radius: 50%;
   background: white;
   margin-top: 4px;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 }
 
 .mr8 {
@@ -100,4 +109,8 @@
 
 .ml8 {
   margin-left: 8px;
+
+  @media (max-width: 415px) {
+    margin-left: 0;
+  }
 }

@@ -12,6 +12,7 @@
 
 .boxAbout {
   max-width: 600px;
+  padding: 20px 20px 0;
   text-align: center;
 
   h1,
@@ -55,4 +56,17 @@
     background: #f5ee32;
   }
 
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
 }
