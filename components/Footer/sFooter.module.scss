@@ -1,8 +1,59 @@
 .container {
+  position: relative;
+  min-height: 300px;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
 
   a {
     color: white;
+    transition: 0.25s linear;
   }
+
+  a:hover {
+    color: #f5ee32;
+    opacity: 0.8;
+  }
+}
+
+.bgContacts {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  font-size: 200px;
+  font-family: "Source Code Pro";
+  font-weight: 700;
+  letter-spacing: 20px;
+  color: rgba(255, 255, 255, 0.2);
+  opacity: 0.5;
+}
+
+
+.columnFlex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.columnItem {
+  width: calc(100% / 4);
+  margin: 0 20px;
+
+  @media (max-width: 600px) {
+    min-width: 400px;
+  }
+}
+
+.rowExtra {
+  font-size: 14px;
+  opacity: 0.4;
+  margin-top: 140px;
 }
