@@ -1,12 +1,17 @@
 module.exports = {
-  webpack: (config) => {
+  webpack: (config, options) => {
     config.module.rules.push({
-      test: /\.(png|jpg|gif)$/i,
+      test: /\.(png|gif|jpg|jpeg)(\?|$)/,
+      issuer: {
+        exclude: /\.(css|sass|scss)$/i,
+      },
       use: [
         {
-          loader: "url-loader",
+          loader: "file-loader",
           options: {
-            limit: 8192,
+            publicPath: `/_next/static/media/`,
+            outputPath: `${options.isServer ? "../" : ""}static/media/`,
+            name: "[name].[hash].[ext]",
           },
         },
       ],
