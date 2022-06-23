@@ -49,7 +49,7 @@ export default function Acting() {
                 ainda revisão de procedimentos, auditorias, consultas, contratos
                 e pareceres jurídicos.
               </p>
-              <a href="/#contato">
+              <a href="https://api.whatsapp.com/send?phone=557388627116">
                 <button>Entre em contato</button>
               </a>
             </div>
@@ -63,7 +63,7 @@ export default function Acting() {
                 propondo ações e visando a indenização por danos materiais,
                 morais e eventuais obrigações de fazer.
               </p>
-              <a href="/#contato">
+              <a href="https://api.whatsapp.com/send?phone=557388627116">
                 <button>Entre em contato</button>
               </a>
             </div>
@@ -76,7 +76,7 @@ export default function Acting() {
                 a aplicação da norma trabalhista vigente, bem como defendendo os
                 interesses de empregadores, especialmente de forma preventiva.
               </p>
-              <a href="/#contato">
+              <a href="https://api.whatsapp.com/send?phone=557388627116">
                 <button>Entre em contato</button>
               </a>
             </div>
@@ -90,7 +90,7 @@ export default function Acting() {
                 autor do fato ou em defesa daqueles que se sentirem lesados em
                 alguma situação conflituosa.
               </p>
-              <a href="/#contato">
+              <a href="https://api.whatsapp.com/send?phone=557388627116">
                 <button>Entre em contato</button>
               </a>
             </div>

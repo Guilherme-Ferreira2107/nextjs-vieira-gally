@@ -21,6 +21,17 @@ export default function Home() {
         <About />
       </div>
       <Acting />
+      <div className={styles.resume}>
+        <div>
+          <h5>Consulte nos gratuitamente!</h5>
+          <span>
+            A lei é um assunto complicado, Se ignorá-la, ela se tornará um
+            grande problema.
+          </span>
+          <br />
+          <span>Deixe-nos ajudá-los, entre em contato!</span>
+        </div>
+      </div>
       <Footer />
 
       <style jsx global>{`

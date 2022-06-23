@@ -33,3 +33,29 @@
   position: fixed;
   z-index: 3;
 }
+
+.resume {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  div {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 40px;
+  }
+
+  h5 {
+    color: grey;
+    margin-bottom: 4px;
+  }
+
+  span {
+    font-weight: 700;
+  }
+
+}
