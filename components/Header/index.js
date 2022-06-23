@@ -42,16 +42,11 @@ export default function Header() {
               />
               <a href="https://api.whatsapp.com/send?phone=557388627116">
                 +55 73 8862-7116
+              </a>{" "}
+              <span>|</span>{" "}
+              <a href="https://api.whatsapp.com/send?phone=5573998392987">
+                +55 73 99839-2987
               </a>
-            </div>
-            <div className={`${styles.dotSpace} ${styles.mr8}`} />
-            <div className={styles.mr8}>
-              <HiOutlineMail
-                color="white"
-                size={16}
-                style={{ marginBottom: "-3px", marginRight: "8px" }}
-              />
-              <a href="mailto:levivaz@outlook.com.br">levivaz@outlook.com.br</a>
             </div>
             <div className={`${styles.dotSpace} ${styles.mr8}`} />
             <div className={styles.mr8}>

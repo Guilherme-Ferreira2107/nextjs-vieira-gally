@@ -18,15 +18,26 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.columnItem}>
-          <h3>Contato</h3>
+          <h3>Contatos</h3>
           <div>
             Email:{" "}
             <a href="mailto:levivaz@outlook.com.br">levivaz@outlook.com.br</a>
           </div>
           <div>
-            Phone:{" "}
+            Telefone:{" "}
             <a href="https://api.whatsapp.com/send?phone=557388627116">
               +55 73 8862-7116
+            </a>
+          </div>
+
+          <div style={{ marginTop: "10px" }}>
+            Email 2:{" "}
+            <a href="mailto:cleuderfilho@gmail.com">cleuderfilho@gmail.com</a>
+          </div>
+          <div>
+            Telefone 2:{" "}
+            <a href="https://api.whatsapp.com/send?phone=5573998392987">
+              +55 73 99839-2987
             </a>
           </div>
         </div>
