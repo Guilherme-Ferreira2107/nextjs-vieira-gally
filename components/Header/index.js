@@ -75,7 +75,9 @@ export default function Header() {
 
       <div className={`${styles.headerMenu} ${scrollY > 0 && styles.bgDark}`}>
         <div className={styles.sessionWrapper}>
-          <Image src={logo} alt="Logo" width={60} height={60} />
+          <div>
+            {/* <Image src={logo} alt="Logo" width={60} height={60} /> */}
+          </div>
           <nav>
             <ul>
               <li>

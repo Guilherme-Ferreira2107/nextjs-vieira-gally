@@ -32,8 +32,10 @@
   background-color: rgba(245, 239, 50, 0.9);
 
   span {
+    font-size: 12px;
     font-weight: 700;
-    color: #2ea2cc
+    letter-spacing: 4px;
+    color: #2ea2cc;
   }
 
   @media (max-width: 600px) {
@@ -52,4 +54,62 @@
 .wrapperActing {
   max-width: 900px;
   padding: 240px 20px 20px;
+
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 0.1rem;
+    transition: ease-in 0.25s;
+
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    background: #f5ee32;
+
+    &:hover {
+      filter: brightness(1.25)
+    }
+  }
+}
+
+.wrapperCards {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../../assets/images/tingey-injury.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+}
+
+.wrapperCardInfo {
+  width: calc(100% / 2);
+  min-height: 314px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.wrapperAnimation {
+  padding-bottom: 20px;
+
+  p {
+    min-height: 120px;
+  }
 }

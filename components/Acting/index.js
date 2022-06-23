@@ -33,47 +33,74 @@ export default function Acting() {
       </div>
 
       <div className={styles.wrapperActing}>
-        <h1>Atuação</h1>
+        <center>
+          <span>No que somos especialistas</span>
+          <h1>Área de Práticas Jurídicas</h1>
+        </center>
 
-        <div>
-          <h3>Advogado Civil</h3>
-          <p>
-            Advocacia civil para elaboração e revisão de contratos, negociação
-            de conflitos com clientes e fornecedores, arbitragem e mediação
-            cível e comercial. Atuamos no contencioso e preventivo, e fazemos
-            revisão de procedimentos, auditoria, consultas, contratos e
-            pareceres jurídicos. Atuamos em ações possessórias,
-            reivindicatórias, locação, execuções, monitórias, prestação de
-            contas, cautelares e demais procedimentos especiais. Efetuamos ações
-            no âmbito da responsabilidade civil e indenização por danos morais.
-          </p>
-        </div>
-        <div>
-          <h3>Direito Consumidor</h3>
-          <p>
-            Nossos advogados atuam na área de Direito Consumidor, atuando no
-            sentido de coibir práticas comerciais abusivas e ilícitas, propondo
-            ações e visando a indenização por danos materiais e morais, com
-            ênfase nas seguintes áreas: morais.
-          </p>
-        </div>
-        <div>
-          <h3>Advogado Trabalhista</h3>
-          <p>
-            Nossos advogados atuam na área de Direito Trabalhista realizando
-            avaliação das relações de trabalho sob a ótica do direito civil,
-            societário e tributário.
-          </p>
-        </div>
-
-        <div>
-          <h3>Advogado Criminal</h3>
-          <p>
-            Nossos advogados são especializados em direito criminal, atuando de
-            modo consultivo, preventivo e contencioso, a favor do autor ou em
-            defesa do réu.
-          </p>
-          <a href="/#contato">Entre em Contato</a>
+        <div className={styles.wrapperCards}>
+          <div className={styles.wrapperCardInfo}>
+            <h3>Advogado Civil</h3>
+            <div className={styles.wrapperAnimation}>
+              <p>
+                Na advocacia cível para elaboração e revisão de
+                contratos/distratos, negociação de conflitos com clientes e
+                fornecedores. Atuamos no contencioso e preventivo, promovendo
+                ainda revisão de procedimentos, auditorias, consultas, contratos
+                e pareceres jurídicos.
+                {/* Atuamos em ações possessórias,
+                reivindicatórias, locação, execuções, monitórias, cautelares e
+                demais procedimentos especiais. */}
+                {/* Efetuamos ações no âmbito da
+                responsabilização cível, buacando reparação por prejuizos
+                sofridos. */}
+              </p>
+              <a href="/#contato">
+                <button>Entre em contato</button>
+              </a>
+            </div>
+          </div>
+          <div className={styles.wrapperCardInfo}>
+            <h3>Direito Consumidor</h3>
+            <div className={styles.wrapperAnimation}>
+              <p>
+                Nossos advogados atuam na área de Direito Consumidor, atuam no
+                sentido de coibir práticas comerciais abusivas e ilícitas,
+                propondo ações e visando a indenização por danos materiais,
+                morais e eventuais obrigações de fazer.
+              </p>
+              <a href="/#contato">
+                <button>Entre em contato</button>
+              </a>
+            </div>
+          </div>
+          <div className={styles.wrapperCardInfo}>
+            <h3>Advogado Trabalhista</h3>
+            <div className={styles.wrapperAnimation}>
+              <p>
+                Nossos advogados atuam na área de Direito Trabalhista realizando
+                a aplicação da norma trabalhista vigente, bem como defendendo os
+                interesses de empregadores, especialmente de forma preventiva.
+              </p>
+              <a href="/#contato">
+                <button>Entre em contato</button>
+              </a>
+            </div>
+          </div>
+          <div className={styles.wrapperCardInfo}>
+            <h3>Advogado Criminal</h3>
+            <div className={styles.wrapperAnimation}>
+              <p>
+                Nossos advogados são especializados em direito criminal, atuando
+                de modo consultivo, preventivo e contencioso, a favor do suposto
+                autor do fato ou em defesa daqueles que se sentirem lesados em
+                alguma situação conflituosa.
+              </p>
+              <a href="/#contato">
+                <button>Entre em contato</button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
