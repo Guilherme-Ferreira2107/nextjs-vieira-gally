@@ -56,6 +56,39 @@
   padding: 240px 20px 20px;
 
 
+  center {
+    position: relative;
+    margin-bottom: 60px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 2px;
+      bottom: 0;
+      margin: 0 0 -20px -50px;
+      background-color: black;
+    }
+  }
+
+  center>span {
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #bbbbbb;
+  }
+
+  center>h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: none;
+    color: #161616;
+    position: relative;
+    margin-top: -2px;
+  }
+
   a {
     text-decoration: none;
   }
@@ -73,9 +106,12 @@
     text-transform: uppercase;
     font-family: 'Source Sans Pro';
     background: #f5ee32;
+    border: 1px solid transparent;
 
     &:hover {
-      filter: brightness(1.25)
+      background: transparent;
+      color: white;
+      border: 1px solid #f5ee32;
     }
   }
 }
@@ -83,7 +119,7 @@
 .wrapperCards {
   display: flex;
   flex-wrap: wrap;
-  background-image: url("../../assets/images/tingey-injury.jpg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/imagesforprojects-16518.appspot.com/o/tingey-injury.jpg?alt=media&token=9235e409-16f4-475e-b64f-acbbba6a7be4");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

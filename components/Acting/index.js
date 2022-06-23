@@ -35,7 +35,7 @@ export default function Acting() {
       <div className={styles.wrapperActing}>
         <center>
           <span>No que somos especialistas</span>
-          <h1>Área de Práticas Jurídicas</h1>
+          <h3>Área de Práticas Jurídicas</h3>
         </center>
 
         <div className={styles.wrapperCards}>
@@ -48,12 +48,6 @@ export default function Acting() {
                 fornecedores. Atuamos no contencioso e preventivo, promovendo
                 ainda revisão de procedimentos, auditorias, consultas, contratos
                 e pareceres jurídicos.
-                {/* Atuamos em ações possessórias,
-                reivindicatórias, locação, execuções, monitórias, cautelares e
-                demais procedimentos especiais. */}
-                {/* Efetuamos ações no âmbito da
-                responsabilização cível, buacando reparação por prejuizos
-                sofridos. */}
               </p>
               <a href="/#contato">
                 <button>Entre em contato</button>

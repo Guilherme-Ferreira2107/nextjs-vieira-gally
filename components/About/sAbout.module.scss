@@ -61,6 +61,14 @@
     font-family: 'Source Sans Pro';
     background: #f5ee32;
     animation: showButtonContact 3s;
+    transition: ease-in 0.25s;
+    border: 1px solid transparent;
+
+    &:hover {
+      background: transparent;
+      color: white;
+      border: 1px solid #f5ee32;
+    }
   }
 
   @keyframes showTitle {
