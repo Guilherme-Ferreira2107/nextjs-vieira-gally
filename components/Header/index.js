@@ -40,11 +40,19 @@ export default function Header() {
                 size={16}
                 style={{ marginBottom: "-2px", marginRight: "8px" }}
               />
-              <a href="https://api.whatsapp.com/send?phone=557388627116">
+              <a
+                href="https://api.whatsapp.com/send?phone=557388627116"
+                target="_blank"
+                rel="noreferrer"
+              >
                 +55 73 8862-7116
               </a>{" "}
               <span>|</span>{" "}
-              <a href="https://api.whatsapp.com/send?phone=5573998392987">
+              <a
+                href="https://api.whatsapp.com/send?phone=5573998392987"
+                target="_blank"
+                rel="noreferrer"
+              >
                 +55 73 99839-2987
               </a>
             </div>
@@ -60,12 +68,18 @@ export default function Header() {
           </div>
 
           <div className={styles.boxFlex}>
-            <a href="https://www.instagram.com/vieira_gally/?igshid=YmMyMTA2M2Y%3D">
+            <a
+              href="https://www.instagram.com/vieira_gally/?igshid=YmMyMTA2M2Y%3D"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiOutlineInstagram size={16} />
             </a>
             <a
               className={styles.ml8}
               href="https://www.instagram.com/vieira_gally/?igshid=YmMyMTA2M2Y%3D"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedinIn size={16} />
             </a>
