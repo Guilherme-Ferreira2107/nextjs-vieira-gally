@@ -13,8 +13,8 @@ export default function Footer() {
         <div className={styles.columnItem}>
           <h3>Endereço</h3>
           <div>
-            Rua Eduardo Fontes, n 09, <br />
-            centro, Itabuna-BA
+            Rua Eduardo Fontes, n° 09, <br />
+            Centro, Itabuna-BA
           </div>
         </div>
         <div className={styles.columnItem}>

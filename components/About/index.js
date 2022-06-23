@@ -5,7 +5,7 @@ export default function About() {
     <section id="sobre" className={styles.container}>
       <div className={styles.boxAbout}>
         <h1>Vieira Gally Advogados</h1>
-        <h3>Soluções rápidas e eficazes às problemáticas apresentadas</h3>
+        <h3>SOLUÇÕES RÁPIDAS E EFICAZES</h3>
         <p>
           Para nós, a ética e eficiência profissional são valores inegociáveis.
           Por isso contamos com uma equipe de profissionais especializados, um
