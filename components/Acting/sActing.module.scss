@@ -1,3 +1,55 @@
 .container {
   color: black;
+  display: flex;
+  justify-content: center;
+}
+
+
+.aboutCeo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.wrapperRadius {
+  display: flex;
+  justify-content: center;
+  max-height: 240px;
+  max-width: 900px;
+  overflow: hidden;
+  border-radius: 0.25rem;
+
+  @media (max-width: 600px) {
+    max-height: 100%;
+  }
+}
+
+.boxHalf {
+  width: 50%;
+  padding: 16px 20px 20px;
+  background-color: rgba(245, 239, 50, 0.9);
+
+  span {
+    font-weight: 700;
+    color: #2ea2cc
+  }
+
+  @media (max-width: 600px) {
+    width: calc(100% - 20px);
+  }
+}
+
+.boxHalfImage {
+  width: 50%;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.wrapperActing {
+  max-width: 900px;
+  padding: 240px 20px 20px;
 }
