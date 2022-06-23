@@ -7,6 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { MdPhoneIphone } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { BsClock } from "react-icons/bs";
 
 import styles from "./sHeader.module.scss";
 import logo from "../../assets/images/logo.jpg";
@@ -39,8 +40,8 @@ export default function Header() {
                 size={16}
                 style={{ marginBottom: "-2px", marginRight: "8px" }}
               />
-              <a href="https://api.whatsapp.com/send?phone=5511986701058">
-                +55 (11) 98670-1058
+              <a href="https://api.whatsapp.com/send?phone=557388627116">
+                +55 73 8862-7116
               </a>
             </div>
             <div className={`${styles.dotSpace} ${styles.mr8}`} />
@@ -50,21 +51,28 @@ export default function Header() {
                 size={16}
                 style={{ marginBottom: "-3px", marginRight: "8px" }}
               />
-              <a href="mailto:info@gmail.com">
-                levivaz@vieiragallyadvogados.com
-              </a>
+              <a href="mailto:levivaz@outlook.com.br">levivaz@outlook.com.br</a>
+            </div>
+            <div className={`${styles.dotSpace} ${styles.mr8}`} />
+            <div className={styles.mr8}>
+              <BsClock
+                color="white"
+                size={16}
+                style={{ marginBottom: "-3px", marginRight: "8px" }}
+              />
+              <span>Seg - Sex 09:00-17:00</span>
             </div>
           </div>
 
           <div className={styles.boxFlex}>
             <a href="https://www.instagram.com/vieira_gally/?igshid=YmMyMTA2M2Y%3D">
-              <AiOutlineInstagram />
+              <AiOutlineInstagram size={16} />
             </a>
             <a
               className={styles.ml8}
               href="https://www.instagram.com/vieira_gally/?igshid=YmMyMTA2M2Y%3D"
             >
-              <FaLinkedinIn />
+              <FaLinkedinIn size={16} />
             </a>
           </div>
         </div>

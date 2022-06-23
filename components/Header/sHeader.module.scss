@@ -10,7 +10,8 @@
     text-transform: uppercase;
   }
 
-  a {
+  a,
+  span {
     text-decoration: none;
     color: white;
     font-size: 12px;
@@ -18,8 +19,9 @@
 
   a:hover {
     color: #f5ee32;
-    opacity: 0.7;
-    transition: 0.3s ease;
+    opacity: 0.9;
+    transition: 0.25s ease;
+    position: relative;
   }
 }
 
@@ -37,8 +39,8 @@
   height: 0px;
   justify-content: center;
 
-  animation: slideOut 0.5s;
-  transition: 0.5s ease-in-out;
+  animation: slideOut 0.25s;
+  transition: 0.25s ease-in-out;
 
   @keyframes slideOut {
     0% {
@@ -57,10 +59,10 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 42px;
+  height: 72px;
   background-color: rgba(0, 0, 0, 1);
-  animation: slidein 0.5s;
-  transition: 0.5s ease-in-out;
+  animation: slidein 0.25s;
+  transition: 0.25s ease-in-out;
   padding: 10px;
 
   @keyframes slidein {
@@ -78,7 +80,36 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  transition: 0.3s ease-in-out;
+  transition: 0.25s ease-in-out;
+
+  a {
+    font-size: 10px;
+  }
+
+  a:hover {
+    &:before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 1px;
+      background: #f5ee32;
+      left: 0;
+      bottom: 0;
+      margin-bottom: -4px;
+      transition: ease-in 0.25s;
+      animation: showAnimation 0.25s;
+
+      @keyframes showAnimation {
+        0% {
+          width: 0px;
+        }
+
+        100% {
+          width: 20px;
+        }
+      }
+    }
+  }
 }
 
 .bgDark {

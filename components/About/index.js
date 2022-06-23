@@ -5,15 +5,25 @@ export default function About() {
     <section id="sobre" className={styles.container}>
       <div className={styles.boxAbout}>
         <h1>Vieira Gally Advogados</h1>
-        <h3>
-          Somos um time de advogados brasileiros que promove o acesso à Justiça
-          através da Inovação e Tecnologia.
+        <h3>Soluções rápidas e eficazes às problemáticas apresentadas</h3>
+        <p>
+          Para nós, a ética e eficiência profissional são valores inegociáveis.
+          Por isso contamos com uma equipe de profissionais especializados, um
+          ambiente confortável e completo, composto de sala de reuniões e salas
+          de atendimento.
+        </p>
+        {/* <h3>
+          Somos um time de Advogados que possuem o objetivo em comum de
+          proporcionar aos seus parceiros e clientes um serviço jurídico
+          diferenciado, com soluções rápidas e eficazes às problemáticas
+          apresentadas.
         </h3>
         <p>
-          Além de nossa experiência e liderança, com uma prática extremamente
-          sofisticada, somos conhecidos como um escritório com ampla experiência
-          em assessorar pessoas físicas e jurídicas.
-        </p>
+          Para nós, a ética e eficiência profissional são valores inegociáveis.
+          Por isso contamos com uma equipe de profissionais especializados, um
+          ambiente confortável e completo, composto de sala de reuniões e salas
+          de atendimento.
+        </p> */}
         <a href="/#contato">
           <button>Entre em contato</button>
         </a>

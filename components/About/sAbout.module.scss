@@ -17,7 +17,6 @@
 
   h1,
   h3 {
-    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 700;
   }
@@ -25,17 +24,23 @@
   h1 {
     font-size: 40px;
     text-transform: uppercase;
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    transition: ease-in 1s;
+    animation: showTitle 1s;
   }
 
   h3 {
     font-size: 20px;
+    transition: ease-in 1s;
+    animation: showSubTitle 1.5s;
   }
 
   p {
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    transition: ease-in 1s;
+    animation: showDescription 3s;
   }
 
   a {
@@ -54,6 +59,51 @@
     text-transform: uppercase;
     font-family: 'Source Sans Pro';
     background: #f5ee32;
+    animation: showButtonContact 3s;
+  }
+
+  @keyframes showTitle {
+    0% {
+      opacity: 0;
+      transform: translateY(2ch);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes showSubTitle {
+    0% {
+      opacity: 0;
+      transform: translateY(4ch);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes showDescription {
+    0% {
+      opacity: 0;
+      transform: translateY(8ch);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes showButtonContact {
+    0% {
+      opacity: 0;
+      transform: translateY(16ch);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
   }
 
   @media (max-width: 500px) {
@@ -69,4 +119,6 @@
       font-size: 14px;
     }
   }
+
+
 }

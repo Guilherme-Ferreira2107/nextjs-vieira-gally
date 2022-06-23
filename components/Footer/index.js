@@ -20,12 +20,13 @@ export default function Footer() {
         <div className={styles.columnItem}>
           <h3>Contato</h3>
           <div>
-            Email: <a href="mailto:levi@gmail.com">levi@gmail.com</a>
+            Email:{" "}
+            <a href="mailto:levivaz@outlook.com.br">levivaz@outlook.com.br</a>
           </div>
           <div>
             Phone:{" "}
-            <a href="https://api.whatsapp.com/send?phone=5511986701058">
-              +55 (11) 98670-1058
+            <a href="https://api.whatsapp.com/send?phone=557388627116">
+              +55 73 8862-7116
             </a>
           </div>
         </div>
@@ -40,8 +41,8 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.rowExtra}>
-        ©{currentDate.getFullYear()} - Vieira Gally Advogados. Todos os direitos
-        reservados. Criado por{" "}
+        © {currentDate.getFullYear()} - Vieira Gally Advogados. Todos os
+        direitos reservados. Criado por{" "}
         <a href="http://guilhermesantos.surge.sh/">Guilherme Santos</a>
       </div>
     </footer>
