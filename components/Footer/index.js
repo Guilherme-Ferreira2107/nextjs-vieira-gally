@@ -60,13 +60,6 @@ export default function Footer() {
           >
             <AiOutlineInstagram style={{ marginRight: "8px" }} />
           </a>
-          <a
-            href="https://www.instagram.com/vieira_gally/?igshid=YmMyMTA2M2Y%3D"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedinIn />
-          </a>
         </div>
       </div>
       <div className={styles.rowExtra}>
