@@ -26,6 +26,10 @@
   background-attachment: fixed;
   background-position-y: 50px;
   z-index: 0;
+
+  @media (max-width: 600px) {
+    background-position-x: -210px;
+  }
 }
 
 .menuFixed {

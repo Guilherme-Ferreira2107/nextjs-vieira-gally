@@ -14,7 +14,6 @@
   span {
     text-decoration: none;
     color: white;
-    font-size: 12px;
   }
 
   a:hover {
@@ -64,6 +63,16 @@
   animation: slidein 0.25s;
   transition: 0.25s ease-in-out;
   padding: 10px;
+
+  a,
+  span {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    @media (max-width: 600px) {
+      font-size: 12px;
+    }
+  }
 
   @keyframes slidein {
     from {

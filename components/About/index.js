@@ -1,3 +1,5 @@
+import { BsArrowDown } from "react-icons/bs";
+
 import styles from "./sAbout.module.scss";
 
 export default function About() {
@@ -14,6 +16,11 @@ export default function About() {
         </p>
         <a href="/#contato">
           <button>Entre em contato</button>
+        </a>
+      </div>
+      <div id="aboutCeo" className={styles.arrowDown}>
+        <a href="#aboutCeo">
+          <BsArrowDown size={40} />
         </a>
       </div>
     </section>

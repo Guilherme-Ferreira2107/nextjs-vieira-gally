@@ -37,7 +37,7 @@ export default function Header() {
             <div className={styles.mr8}>
               <MdPhoneIphone
                 color="white"
-                size={16}
+                size={14}
                 style={{ marginBottom: "-2px", marginRight: "8px" }}
               />
               <a
@@ -60,7 +60,7 @@ export default function Header() {
             <div className={styles.mr8}>
               <BsClock
                 color="white"
-                size={16}
+                size={14}
                 style={{ marginBottom: "-3px", marginRight: "8px" }}
               />
               <span>Seg - Sex 09:00-17:00</span>
@@ -73,15 +73,7 @@ export default function Header() {
               target="_blank"
               rel="noreferrer"
             >
-              <AiOutlineInstagram size={16} />
-            </a>
-            <a
-              className={styles.ml8}
-              href="https://www.instagram.com/vieira_gally/?igshid=YmMyMTA2M2Y%3D"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaLinkedinIn size={16} />
+              <AiOutlineInstagram size={20} />
             </a>
           </div>
         </div>

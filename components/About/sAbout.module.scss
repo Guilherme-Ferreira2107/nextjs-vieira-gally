@@ -131,3 +131,14 @@
 
 
 }
+
+.arrowDown {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 40px 140px 0;
+
+  a {
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
