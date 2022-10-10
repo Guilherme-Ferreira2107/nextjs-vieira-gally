@@ -30,6 +30,7 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hidden {
@@ -66,8 +67,8 @@
 
   a,
   span {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-family: Roboto;
 
     @media (max-width: 600px) {
       font-size: 12px;
@@ -154,4 +155,9 @@
   @media (max-width: 415px) {
     margin-left: 0;
   }
+}
+
+.titleLogo {
+  color: white;
+  padding-left: 0.4rem
 }
